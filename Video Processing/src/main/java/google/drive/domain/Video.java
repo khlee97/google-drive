@@ -34,6 +34,12 @@ public class Video  {
     
     
     private String videoUrl;
+    
+    
+    
+    
+    
+    private String type;
 
     @PostPersist
     public void onPostPersist(){

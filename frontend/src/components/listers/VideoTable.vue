@@ -69,6 +69,7 @@
                     { text: "id", value: "id" },
                     { text: "fileId", value: "fileId" },
                     { text: "videoUrl", value: "videoUrl" },
+                    { text: "type", value: "type" },
                 ],
             video : [],
             newValue: {},
@@ -88,6 +89,7 @@
             this.newValue = {
                 'fileId': 0,
                 'videoUrl': '',
+                'type': '',
             }
         },
         methods: {

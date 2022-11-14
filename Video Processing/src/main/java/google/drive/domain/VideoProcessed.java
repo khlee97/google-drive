@@ -12,6 +12,7 @@ public class VideoProcessed extends AbstractEvent {
     private Long id;
     private Long fileId;
     private String videoUrl;
+    private String type;
 
     public VideoProcessed(Video aggregate){
         super(aggregate);

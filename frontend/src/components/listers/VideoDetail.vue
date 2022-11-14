@@ -11,6 +11,9 @@
             <div>
                 <String label="VideoUrl" v-model="item.videoUrl" :editMode="editMode" @change="change" />
             </div>
+            <div>
+                <String label="Type" v-model="item.type" :editMode="editMode" @change="change" />
+            </div>
         </v-card-text>
 
         <v-card-actions>

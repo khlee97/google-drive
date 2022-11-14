@@ -44,7 +44,7 @@ mvn spring-boot:run
 ```
 - Video Processing
 ```
- http :8088/videos id="id" fileId="fileId" videoUrl="videoUrl" 
+ http :8088/videos id="id" fileId="fileId" videoUrl="videoUrl" type="type" 
 ```
 - dashboard
 ```
